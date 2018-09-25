@@ -13,14 +13,17 @@ public class ArrivalPrediction {
 
     private ArrivalPrediction() {}
 
-    public String getLineName() {
+    public String getLineName() 
+    {
         return lineName;
     }
-    public String getDirection() {
+    public String getDirection() 
+    {
         return direction;
     }
 
-    public String getBestDepartureEstimate() {
+    public String getBestDepartureEstimate() 
+    {
         return bestDepartureEstimate;
     }
 }
